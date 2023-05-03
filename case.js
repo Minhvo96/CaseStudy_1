@@ -2,6 +2,10 @@ function clicked() {
     alert('Hệ thống đang bảo trì, xin quý khách thông cảm ^^');
 }
 
+function thanhtoan() {
+    alert('Đơn hàng đã được xử lý, cám ơn quý khách đã mua hàng!');
+}
+
 const btn = document.querySelectorAll('button')
 btn.forEach(function (button, index) {
     button.addEventListener('click', function (event) {
